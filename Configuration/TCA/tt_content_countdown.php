@@ -51,9 +51,7 @@ call_user_func(function () {
 			'label' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_time',
 			'description' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_time.description',
 			'config' => [
-				'type' => 'input',
-				'renderType' => 'inputDateTime',
-				'eval' => 'datetime',
+				'type' => 'datetime'
 			],
 		],
 		'counter_stop' => [
