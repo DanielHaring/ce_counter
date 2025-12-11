@@ -8,9 +8,9 @@ call_user_func(function () {
 		'tt_content',
 		'CType',
 		[
-			'LLL:EXT:ce_counter/Resources/Private/Language/locallang.xlf:ce_title',
-			'ce_counter',
-			'ce-counter-icon'
+			'label' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang.xlf:ce_title',
+			'value' => 'ce_counter',
+			'icon' => 'ce-counter-icon'
 		],
 		'header',
 		'after'
